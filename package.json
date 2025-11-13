@@ -12,7 +12,7 @@
     "AI",
     "Other"
   ],
-  "icon": "./resources/claude-logo.png",
+  "icon": "resources/claude-logo.png",
   "activationEvents": [
     "onStartupFinished"
   ],
@@ -55,14 +55,14 @@
         {
           "id": "claudix-chat-sidebar",
           "title": "Claudix",
-          "icon": "resources/icon.svg"
+          "icon": "resources/claude-logo.svg"
         }
       ]
     },
     "views": {
       "claudix-chat-sidebar": [
         {
-          "icon": "resources/icon.svg",
+          "icon": "resources/claude-logo.svg",
           "type": "webview",
           "id": "claudix.chatView",
           "name": "Claudix"
